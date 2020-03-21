@@ -34,6 +34,7 @@ Host:   Alright, tell me what kind of terminal you're using
 Client: I am using an IBM-3278-2
 ```
 You can have more info on TELNET commands and options in lines 414 to 770 of tnLib.js
+
 Commands are actually sent as decimals, in a binary blob/buffer.
 
 ## Understanding a computer older than you are (ok boomer)
