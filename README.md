@@ -47,14 +47,18 @@ IAC SB TERMINAL-TYPE TRANSMIT-BINARY IBM-3278-2 IAC SE
 
 If we consider commands to be level 0, options to be level 1, and binary data not interpreted as TELNET commands/option to be level 3:
 
+```
 IAC: "Pay attention to the following stuff" -> Level 0 command, level stays at 0
 SB: "We're about to negociate important info" -> Level 0 command, level gets changed to 1
 TERMINAL-TYPE: "The name of my terminal is" -> Level 1 command, level stays at 1
 TRANSMIT-BINARY: "I will now say it in binary" -> Level 1 command, level gets changed to 3
 IBM-3278-2: Each character is sent as a decimal equivalent. Level stays at 3.
+```
 
 Once we're done with the binary data, level changed back to 0 and:
+```
 IAC SE: We're done.
+```
 
 ## IBM wanted more
 At some point, IBM decided to add more stuff to the TELNET specification to enable more features. Blessing in disguise, as the IETF (then RTF) looked at it and went "YUCK, NO" (arguably a good reaction). So they added some stuff, like option 40 (TN3270E), and then IBM could implement their own stuff outside of the specification.
