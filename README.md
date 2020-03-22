@@ -33,7 +33,7 @@ Client: I will tell you what kind of terminal I'm using
 Host:   Alright, tell me what kind of terminal you're using
 Client: I am using an IBM-3278-2
 ```
-You can have more info on TELNET commands and options in lines 414 to 770 of tnLib.js
+You can have more info on TELNET commands and options in lines [414 to 770 of tnLib.js](https://github.com/roubarbe/oldgarbo/blob/master/tnLib.js)
 
 Commands are actually sent as decimals, in a binary blob/buffer.
 
