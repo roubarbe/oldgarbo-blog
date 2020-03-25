@@ -8,6 +8,19 @@ I'm trying to fetch textual data from an IBM 3270 mainframe, for display on a mo
 Well, if I don't do it, no one will.
 ***
 
+# Wednesday the 25th of March, 2020 (25/03/2020)
+So now that we've been able to negociate a connection, the mainframe will just vomit what looks like random characters:
+
+```
+uB@@`H$"@e"     @@z@ThtKppAP`H"#@@@@@@@@@@zAdhW$(KB``H"#@Vb@@@@@@@@@@@zBthD&    `qwKwKp@D&      @R@e"   @qwKwKpz@$@Q@rs@pwzpuzrsCp`H"#@A##$@zDDh'xvmvtE@`W"""@@@@@@@@zEThSW~tk@C"~rk@CWd"~qFP`SWAY@U@@@@@@@@@zFdhHEYCdSEbG``D%   @$@@@@@zGthpzppCpHp`b@@@@@@@@zIDhpppAHp`@@@@@@@@@@@@@@@@@@@@@@@@@@@\\\\\\\\\\\\@@@\\\\@@\\\\\@@@@@@@@@@jjJ@`@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@@@\\@@@\\@@@@\\@@@@\\@@@@@@@@@@@jjjKP`@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@@@\\@@@\\@@@@\\@@@\\@@@@@@@@@@@jjjjL``@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@@@@@@@@@\\@@\\@@@@@@@@@@@jj@jjMp`@@@@@@@@j@@@@@@mkkk```kkm@@@@@@\\@@@@@@@@@\\@\\@@@@@@@@@@@jj@@jjO@`@iii))@ak}K`}y}@@@@`K@@^`^^k@@@@\\@@@@@@@@@\\\\@@@@@@@@@@@jj@@@jjPP`@@@@@@jkt`@@]@]`kmK@kM@M@@}}`}@@\\@@@@@@@@@\\\\\@@@@@@@@@jj@@@@jjQ``@@@@@}```}}Mma``}@@y`}]m]@@@@@@@\\@@@@@@@@@\\@@\\@@@@@@@jj@@@@@jj@@@@jjjjjjjjjjRp`@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@@@@@@@@@\\@@@\\@@@@@@jjjjjjjjjjj@@d#@pxT@`@@@@@@@@Teb@sKx@@@@@@@@@@@@@\\@@@@@@@@@\\@@@@\\@@@@@@@@@@@@jjUP`@@@@@c$M](@b("#@@@@@@@@@@@\\@@@@@@@@@\\@@@@@\\@@@@@@@@@@@jjV``@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\\\\\@@@@@@\\\\@@@@@\\\@@@@@@@jjjjjjWp`Y@`@@@@@@@@@@@@cRs@#@(@e@B@@@@@@@%|"KZP`@@@@@@@@@@@@cRt`@$#@(@Q$@f       @@&     |       K)[``@@@@@@@@@@@@@@@@@@@@@"@cRt`KCYEDIcb@@#@    #"o
+```
+
+Is it ASCII? It makes no sense!
+
+Oh, no, my child. It's EBCDIC. It's IBM's way of saying "We're the only ones around so suck it"
+
+(more to come)
+
 # Saturday the 21st of March, 2020 (21/03/2020)
 Let's start at the beginning: IBM decided to build upon the TELNET standard to add new features.
 
