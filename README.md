@@ -26,7 +26,8 @@ jWp`Y@`@@@@@@@@@@@@cRs@#@(@e@B@@@@@@@%|"KZP`@@@@@@@@@@@@cRt`@$#@(@Q$@f       @@&
 
 Is it ASCII? It makes no sense!
 
-Oh, no, my child. That's EBCDIC. It's IBM's way of saying "We're the only ones around so suck it" ( (there's actually more to this story)[https://en.wikipedia.org/wiki/EBCDIC] )
+Oh, no, my child. That's EBCDIC. It's IBM's way of saying "We're the only ones around so suck it" 
+######(there's actually more to this story)[https://en.wikipedia.org/wiki/EBCDIC]
 
 So, if we map it to EBCDIC, we now get:
 
@@ -73,7 +74,7 @@ Those values (17 and 29) in a 3270 Data Stream context mean the following:
 Extract from my (Data Stream Cheat Sheet)[https://github.com/roubarbe/oldgarbo/blob/master/dataStream.md]
 
 So we're still dealing with things in binary/decimal?
-*Heck yeah we are, because why the heck not, we're in 1985 and the Yamaha DX7 is the leading synth around*
+**Heck yeah we are, because why the heck not, we're in 1985 and the Yamaha DX7 is the leading synth around**
 
 So, now, if we continue parsing through, in binary, and apply all the 3270 Data Stream rules:
 ```
@@ -102,7 +103,7 @@ Device number     :0:00C0
                      see TK4-.CREDITS for complete credit
 ```
 
-*YOU ARE WINNER*
+**_YOU ARE WINNER_**
 We were able to read data and make it look OK, and make sense!
 
 Next up: how to interact with the host.
