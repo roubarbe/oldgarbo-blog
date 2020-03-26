@@ -12,14 +12,98 @@ Well, if I don't do it, no one will.
 So now that we've been able to negociate a connection, the mainframe will just vomit what looks like random characters:
 
 ```
-uB@@`H$"@e"     @@z@ThtKppAP`H"#@@@@@@@@@@zAdhW$(KB``H"#@Vb@@@@@@@@@@@zBthD&    `qwKwKp@D&      @R@e"   @qwKwKpz@$@Q@rs@pwzpuzrsCp`H"#@A##$@zDDh'xvmvtE@`W"""@@@@@@@@zEThSW~tk@C"~rk@CWd"~qFP`SWAY@U@@@@@@@@@zFdhHEYCdSEbG``D%   @$@@@@@zGthpzppCpHp`b@@@@@@@@zIDhpppAHp`@@@@@@@@@@@@@@@@@@@@@@@@@@@\\\\\\\\\\\\@@@\\\\@@\\\\\@@@@@@@@@@jjJ@`@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@@@\\@@@\\@@@@\\@@@@\\@@@@@@@@@@@jjjKP`@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@@@\\@@@\\@@@@\\@@@\\@@@@@@@@@@@jjjjL``@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@@@@@@@@@\\@@\\@@@@@@@@@@@jj@jjMp`@@@@@@@@j@@@@@@mkkk```kkm@@@@@@\\@@@@@@@@@\\@\\@@@@@@@@@@@jj@@jjO@`@iii))@ak}K`}y}@@@@`K@@^`^^k@@@@\\@@@@@@@@@\\\\@@@@@@@@@@@jj@@@jjPP`@@@@@@jkt`@@]@]`kmK@kM@M@@}}`}@@\\@@@@@@@@@\\\\\@@@@@@@@@jj@@@@jjQ``@@@@@}```}}Mma``}@@y`}]m]@@@@@@@\\@@@@@@@@@\\@@\\@@@@@@@jj@@@@@jj@@@@jjjjjjjjjjRp`@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@@@@@@@@@\\@@@\\@@@@@@jjjjjjjjjjj@@d#@pxT@`@@@@@@@@Teb@sKx@@@@@@@@@@@@@\\@@@@@@@@@\\@@@@\\@@@@@@@@@@@@jjUP`@@@@@c$M](@b("#@@@@@@@@@@@\\@@@@@@@@@\\@@@@@\\@@@@@@@@@@@jjV``@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\\\\\@@@@@@\\\\@@@@@\\\@@@@@@@jjjjjjWp`Y@`@@@@@@@@@@@@cRs@#@(@e@B@@@@@@@%|"KZP`@@@@@@@@@@@@cRt`@$#@(@Q$@f       @@&     |       K)[``@@@@@@@@@@@@@@@@@@@@@"@cRt`KCYEDIcb@@#@    #"o
+uB@@`H$"@e"     @@z@ThtKppAP`H"#@@@@@@@@@@zAdhW$(KB``H"#@Vb@@@@@@@@@@@zBthD&    `qwKwKp@D&      @R@e"   @qwKwKpz@$@Q@rs@pwzpuzrsCp`H"#@A##$@zDDh'xvmvtE@`W"""@@@@@@@@zEThSW~tk@C"~rk@CWd"~qFP`SWAY@U@@@@@@@@@zFdhHEYCdSEbG``D%   @$@@@@@zGthpzppCpHp`b@@@@@@@@zIDhpppAHp`@@@@@@@@@@@@@@@@@@@@@@@@@@@\\\\\\\\\\\\@@@\\\\@@\\\\\@@@@@@@@@@jjJ@`@@@@@@@@@
+@@@@@@@@@@@@@@@@@@\\@@@\\@@@\\@@@@\\@@@@\\@@@@@@@@@@@jjjKP`@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@@@\\@@@\\@@@@\\@@@\\@@@@@@@@@
+@@jjjjL``@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@@@@@@@@@\\@@\\@@@@@@@@@@@jj@jjMp`@@@@@@@@j@@@@@@mkkk```kkm@@@@@@\\@@@@@@@@@
+\\@\\@@@@@@@@@@@jj@@jjO@`@iii))@ak}K`}y}@@@@`K@@^`^^k@@@@\\@@@@@@@@@\\\\@@@@@@@@@@@jj@@@jjPP`@@@@@@jkt`@@]@]`kmK@kM@M@@
+}}`}@@\\@@@@@@@@@\\\\\@@@@@@@@@jj@@@@jjQ``@@@@@}```}}Mma``}@@y`}]m]@@@@@@@\\@@@@@@@@@\\@@\\@@@@@@@jj@@@@@jj@@@@jjjjjjjj
+jjRp`@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@@@@@@@@@\\@@@\\@@@@@@jjjjjjjjjjj@@d#@pxT@`@@@@@@@@Teb@sKx@@@@@@@@@@@@@\\@@@@@@@
+@@\\@@@@\\@@@@@@@@@@@@jjUP`@@@@@c$M](@b("#@@@@@@@@@@@\\@@@@@@@@@\\@@@@@\\@@@@@@@@@@@jjV``@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\\\\\@@@@@@\\\\@@@@@\\\@@@@@@@jjjjj
+jWp`Y@`@@@@@@@@@@@@cRs@#@(@e@B@@@@@@@%|"KZP`@@@@@@@@@@@@cRt`@$#@(@Q$@f       @@&     |       K)[``@@@@@@@@@@@@@@@@@@@@@"@cRt`KCYEDIcb@@#@    #"o
 ```
 
 Is it ASCII? It makes no sense!
 
-Oh, no, my child. It's EBCDIC. It's IBM's way of saying "We're the only ones around so suck it"
+Oh, no, my child. That's EBCDIC. It's IBM's way of saying "We're the only ones around so suck it" ( (there's actually more to this story)[https://en.wikipedia.org/wiki/EBCDIC] )
 
-(more to come)
+So, if we map it to EBCDIC, we now get:
+
+```
+DC1  IGS-Hercules Version  :DC1 MIGSY4.00DC1AIGS-Host name         :DC1AUIGSYPu
+ppy.localDC1B-IGS-Host OS           :DC1B4IGSYDarwin-17.7.0 Darwin Kernel Versi
+on 17.7.0: Thu Jan 23 07:05:23DC1C0IGS-Host Architecture :DC1DDIGSYx86_64DC1E IGS
+-Processors        :DC1EMIGSYLP=4, Cores=2, CPUs=1DC1FIGS-LPAR Name         :
+DC1FUIGSYHERCULESDC1G-IGS-Device number     :DC1G4IGSY0:00C0DC1H0IGS-Subchannel
+        :DC1IDIGSY000ADC1H0IGS-                           ************   **** 
+         *****          ¦¦DC1¢ IGS-                           **   **   **    
+         **    **           ¦¦¦DC1.IGS-                           **   **   ** 
+            **   **           ¦¦¦¦DC1<-IGS-                                **   
+                  **  **           ¦¦ ¦¦DC1(0IGS-        ¦l      _,,,---,,_     
+                   **         ** **           ¦¦  ¦¦DC1| IGS- ZZZzz /,'.-'`'    
+                   -.  ;-;;,    **         ****           ¦¦   ¦¦DC1IGS-      ¦,
+                   4-  ) )-,_. ,( (  ''-'  **         *****         ¦¦    ¦¦DC1J-IGS-
+                        '---''(_/--'  `-')_)       **         **  **       ¦¦    
+                         ¦¦    ¦¦¦¦¦¦¦¦¦¦DC1K0IGS-                               
+                          **         **   **      ¦¦¦¦¦¦¦¦¦¦¦  Update 08DC1M IGS-
+                                 The MVS 3.8j             **         **    **    
+                                         ¦¦DC1NIGS-     Tur(n)key System         
+                                           **         **     **           ¦¦DC1O-IGS-   
+```
+Wow, well, that looks like... Something ?
+See those Weird DC1/IGS things ? Technically they're characters. 
+
+As per EBCDIC: "DC1" is "Device Control 1", usually used to control flow of information (Stop sending data). DC1's decimal number is 17.
+
+"IGS" can ("be used as delimiters to mark fields of data structures.")[https://en.wikipedia.org/wiki/C0_and_C1_control_codes#Field_separators] - And IGS is decimal 29.
+
+You'd think they're for controlling stuff? But why are they part of the characters?
+
+Well, here's the thing. They kinda do, but not.
+
+The vomit the host is shooting back to us is actually 3270 Data Stream. Let's remind ourselves that before monitors, computer scientists used printers. Printer heads can be placed anywhere in a X and Y position. So... we need to position an invisible and intangible printer head? Yes. Yes we do.
+
+Those values (17 and 29) in a 3270 Data Stream context mean the following:
+
+| NAME | Abbreviation | Decimal | Description |
+|------|:------------:|:-------:|-------------|
+| Start Field | SF | 29 | Indicates the start of a field. Next byte is a field attribute. |
+| Set Buffer Address			| SBA	| 0x11	| 17	| Will set where to write data, has two leading bytes to tell location. Can be placed behind any other order. |
+Extract from my (Data Stream Cheat Sheet)[https://github.com/roubarbe/oldgarbo/blob/master/dataStream.md]
+
+So we're still dealing with things in binary/decimal?
+*Heck yeah we are, because why the heck not, we're in 1985 and the Yamaha DX7 is the leading synth around*
+
+So, now, if we continue parsing through, in binary, and apply all the 3270 Data Stream rules:
+```
+Hercules Version  :4.00
+Host name         :Puppy.local
+Host OS           :Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jan 23 07:053
+Host Architecture :x86_64
+Processors        :LP=4, Cores=2, CPUs=1
+LPAR Name         :HERCULES
+Device number     :0:00C0
+                           ************   ****  *****          ¦¦
+                           **   **   **    **    **           ¦¦¦
+                           **   **   **    **   **           ¦¦¦¦
+                                **         **  **           ¦¦ ¦¦
+        ¦l      _,,,---,,_      **         ** **           ¦¦  ¦¦
+ ZZZzz /,'.-'`'    -.  ;-;;,    **         ****           ¦¦   ¦¦
+      ¦,4-  ) )-,_. ,( (  ''-'  **         *****         ¦¦    ¦¦
+     '---''(_/--'  `-')_)       **         **  **       ¦¦     ¦¦    ¦¦¦¦¦¦¦¦¦¦
+                                **         **   **      ¦¦¦¦¦¦¦¦¦¦¦  Update 08
+       The MVS 3.8j             **         **    **            ¦¦
+     Tur(n)key System           **         **     **           ¦¦
+                              ******      ****     ***       ¦¦¦¦¦¦
+
+            TK3 created by Volker Bandke       vbandke@bsp-gmbh.com
+            TK4- update by Juergen Winkelmann  winkelmann@id.ethz.ch
+                     see TK4-.CREDITS for complete credit
+```
+
+*YOU ARE WINNER*
+We were able to read data and make it look OK, and make sense!
+
+Next up: how to interact with the host.
 
 # Saturday the 21st of March, 2020 (21/03/2020)
 Let's start at the beginning: IBM decided to build upon the TELNET standard to add new features.
