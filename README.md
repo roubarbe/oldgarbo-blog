@@ -12,13 +12,15 @@ Well, if I don't do it, no one will.
 So now that we've been able to negociate a connection, the mainframe will just vomit what looks like random characters:
 
 ```
-uB@@`H$"@e"     @@z@ThtKppAP`H"#@@@@@@@@@@zAdhW$(KB``H"#@Vb@@@@@@@@@@@zBthD&    `qwKwKp@D&      @R@e"   @qwKwKpz@$@Q@rs@pwzpuzrsCp`H"#@A##$@zDDh'xvmvtE@`W"""@@@@@@@@zEThSW~tk@C"~rk@CWd"~qFP`SWAY@U@@@@@@@@@zFdhHEYCdSEbG``D%   @$@@@@@zGthpzppCpHp`b@@@@@@@@zIDhpppAHp`@@@@@@@@@@@@@@@@@@@@@@@@@@@\\\\\\\\\\\\@@@\\\\@@\\\\\@@@@@@@@@@jjJ@`@@@@@@@@@
+uB@@`H$"@e"     @@z@ThtKppAP`H"#@@@@@@@@@@zAdhW$(KB``H"#@Vb@@@@@@@@@@@zBthD&    `qwKwKp@D&      @R@e"   @qwKwKpz@$@Q@rs@pwzpuzrsCp`H"#@A##$@zDDh'xvmvtE@`W"""@@@@@@@@zEThSW~tk@C"~rk@CWd"~qFP`SWAY@U@@@@@@@@@zFdhHEYCdSEbG``D%
+@$@@@@@zGthpzppCpHp`b@@@@@@@@zIDhpppAHp`@@@@@@@@@@@@@@@@@@@@@@@@@@@\\\\\\\\\\\\@@@\\\\@@\\\\\@@@@@@@@@@jjJ@`@@@@@@@@@
 @@@@@@@@@@@@@@@@@@\\@@@\\@@@\\@@@@\\@@@@\\@@@@@@@@@@@jjjKP`@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@@@\\@@@\\@@@@\\@@@\\@@@@@@@@@
 @@jjjjL``@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@@@@@@@@@\\@@\\@@@@@@@@@@@jj@jjMp`@@@@@@@@j@@@@@@mkkk```kkm@@@@@@\\@@@@@@@@@
 \\@\\@@@@@@@@@@@jj@@jjO@`@iii))@ak}K`}y}@@@@`K@@^`^^k@@@@\\@@@@@@@@@\\\\@@@@@@@@@@@jj@@@jjPP`@@@@@@jkt`@@]@]`kmK@kM@M@@
 }}`}@@\\@@@@@@@@@\\\\\@@@@@@@@@jj@@@@jjQ``@@@@@}```}}Mma``}@@y`}]m]@@@@@@@\\@@@@@@@@@\\@@\\@@@@@@@jj@@@@@jj@@@@jjjjjjjj
 jjRp`@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@@@@@@@@@\\@@@\\@@@@@@jjjjjjjjjjj@@d#@pxT@`@@@@@@@@Teb@sKx@@@@@@@@@@@@@\\@@@@@@@
-@@\\@@@@\\@@@@@@@@@@@@jjUP`@@@@@c$M](@b("#@@@@@@@@@@@\\@@@@@@@@@\\@@@@@\\@@@@@@@@@@@jjV``@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\\\\\@@@@@@\\\\@@@@@\\\@@@@@@@jjjjj
+@@\\@@@@\\@@@@@@@@@@@@jjUP`@@@@@c$M(@b("#@@@@@@@@@@@\\@@@@@@@@@\\@@@@@\\@@@@@@@@@@@jjV``@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\
+\\\\\@@@@@@\\\\@@@@@\\\@@@@@@@jjjjj
 jWp`Y@`@@@@@@@@@@@@cRs@#@(@e@B@@@@@@@%|"KZP`@@@@@@@@@@@@cRt`@$#@(@Q$@f       @@&     |       K)[``@@@@@@@@@@@@@@@@@@@@@"@cRt`KCYEDIcb@@#@    #"o
 ```
 
