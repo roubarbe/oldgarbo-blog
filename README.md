@@ -71,6 +71,7 @@ Those values (17 and 29) in a 3270 Data Stream context mean the following:
 |------|:------------:|:-------:|-------------|
 | Start Field | SF | 29 | Indicates the start of a field. Next byte is a field attribute. |
 | Set Buffer Address			| SBA	| 0x11	| 17	| Will set where to write data, has two leading bytes to tell location. Can be placed behind any other order. |
+
 Extract from my [Data Stream Cheat Sheet](https://github.com/roubarbe/oldgarbo/blob/master/dataStream.md)
 
 So we're still dealing with things in binary/decimal?
