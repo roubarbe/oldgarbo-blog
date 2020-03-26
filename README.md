@@ -27,8 +27,7 @@ jWp`Y@`@@@@@@@@@@@@cRs@#@(@e@B@@@@@@@%|"KZP`@@@@@@@@@@@@cRt`@$#@(@Q$@f       @@&
 Is it ASCII? It makes no sense!
 
 Oh, no, my child. That's EBCDIC. It's IBM's way of saying "We're the only ones around so suck it" 
-
-###### (there's actually more to this story)[https://en.wikipedia.org/wiki/EBCDIC]
+###### [there's actually more to this story](https://en.wikipedia.org/wiki/EBCDIC)
 
 So, if we map it to EBCDIC, we now get:
 
@@ -58,7 +57,7 @@ See those Weird DC1/IGS things ? Technically they're characters.
 
 As per EBCDIC: "DC1" is "Device Control 1", usually used to control flow of information (Stop sending data). DC1's decimal number is 17.
 
-"IGS" can ("be used as delimiters to mark fields of data structures.")[https://en.wikipedia.org/wiki/C0_and_C1_control_codes#Field_separators] - And IGS is decimal 29.
+"IGS" can ["be used as delimiters to mark fields of data structures."](https://en.wikipedia.org/wiki/C0_and_C1_control_codes#Field_separators) - And IGS is decimal 29.
 
 You'd think they're for controlling stuff? But why are they part of the characters?
 
@@ -72,7 +71,7 @@ Those values (17 and 29) in a 3270 Data Stream context mean the following:
 |------|:------------:|:-------:|-------------|
 | Start Field | SF | 29 | Indicates the start of a field. Next byte is a field attribute. |
 | Set Buffer Address			| SBA	| 0x11	| 17	| Will set where to write data, has two leading bytes to tell location. Can be placed behind any other order. |
-Extract from my (Data Stream Cheat Sheet)[https://github.com/roubarbe/oldgarbo/blob/master/dataStream.md]
+Extract from my [Data Stream Cheat Sheet](https://github.com/roubarbe/oldgarbo/blob/master/dataStream.md)
 
 So we're still dealing with things in binary/decimal?
 **Heck yeah we are, because why the heck not, we're in 1985 and the Yamaha DX7 is the leading synth around**
