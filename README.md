@@ -27,7 +27,8 @@ jWp`Y@`@@@@@@@@@@@@cRs@#@(@e@B@@@@@@@%|"KZP`@@@@@@@@@@@@cRt`@$#@(@Q$@f       @@&
 Is it ASCII? It makes no sense!
 
 Oh, no, my child. That's EBCDIC. It's IBM's way of saying "We're the only ones around so suck it" 
-######(there's actually more to this story)[https://en.wikipedia.org/wiki/EBCDIC]
+
+###### (there's actually more to this story)[https://en.wikipedia.org/wiki/EBCDIC]
 
 So, if we map it to EBCDIC, we now get:
 
